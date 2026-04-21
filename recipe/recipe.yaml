@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: ldas-tools-utilities
-  version: 2.7.1
+  version: "2.7.3"
   ldas_tools_cmake_version: 1.2.3
   ldas_tools_diskcacheapi_version: 2.7.7
   ldas_tools_frameapi_version: 2.6.7
@@ -14,7 +14,7 @@ package:
 
 source:
   url: https://software.igwn.org/sources/source/${{ name }}-${{ version }}.tar.gz
-  sha256: 0586c015d7fb0dd869d01d6c7c40d6dcfababf605e208072b1df8abb27f81e7f
+  sha256: 704e5768b6a2c72946b4babe7df7529f42e4d607d3c1c5b26b9ba2b5746818da
 
 build:
   dynamic_linking:
@@ -23,7 +23,7 @@ build:
         then: /usr/lib/libSystem.B.dylib
     overdepending_behavior: error
     overlinking_behavior: error
-  number: 3
+  number: 0
   skip: win
 
 requirements:
