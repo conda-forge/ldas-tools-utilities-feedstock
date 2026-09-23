@@ -2,13 +2,13 @@ schema_version: 1
 
 context:
   name: ldas-tools-utilities
-  version: "2.7.5"
-  ldas_tools_cmake_version: 1.5.0
-  ldas_tools_al_version: 2.10.0
-  ldas_tools_diskcacheapi_version: 2.7.11
-  ldas_tools_frameapi_version: 3.0.8
-  ldas_tools_framecpp_version: 4.1.0
-  ldas_tools_ldasgen_version: 2.7.7
+  version: "2.7.7"
+  ldas_tools_cmake_version: 1.5.1
+  ldas_tools_al_version: 2.10.1
+  ldas_tools_diskcacheapi_version: 2.7.12
+  ldas_tools_frameapi_version: 3.0.9
+  ldas_tools_framecpp_version: 4.1.2
+  ldas_tools_ldasgen_version: 2.7.8
 
 package:
   name: ${{ name|lower }}
@@ -16,7 +16,7 @@ package:
 
 source:
   url: https://software.igwn.org/sources/source/${{ name }}-${{ version }}.tar.gz
-  sha256: c000cfdfc20e7a845b07cf7e97c4c302797782f027a973b64436fd539974cba5
+  sha256: 5d5dd30067cba4b2e017b72f5f9b164250563a34d1e3aeb7d6a4f9f9c7f5d583
 
 build:
   dynamic_linking:
